@@ -11,16 +11,23 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
 .logo{
     width: 50%;
+    margin: auto;
+    min-width: max-content;
+    max-width: 50%;
     text-align: center;
 }
 
 .login-container{
+    margin: auto;
     width: 50%;
+    min-width: max-content;
+    max-width: 50%;
 }
 
 form.login{
