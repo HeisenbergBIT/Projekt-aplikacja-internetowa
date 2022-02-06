@@ -37,3 +37,14 @@ section {
     flex-direction: column;
     justify-content: space-between;
 }
+
+section.restaurant-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.restaurant-form > form{
+    display: flex;
+    flex-direction: column;
+}

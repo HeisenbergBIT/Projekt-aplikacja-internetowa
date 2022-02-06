@@ -46,9 +46,14 @@
                     add restaurant
                 </div>
             </header>
-            <section class="restaurants">
+            <section class="restaurant-form">
                 <h1>UPLOAD</h1>
-                <form>
+                <form action="addRestaurant" method="POST" enctype="multipart/form-data">
+                    <?php if(isset($messages)){
+                        foreach ($messages as $message)
+                            echo $message;
+                    }
+                    ?>
                     <input name="title", type="text" placeholder="title">
                     <textarea name="description" rows=5 placeholder="description"></textarea>
                     <input type="file" name="file">
