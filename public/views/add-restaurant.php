@@ -54,9 +54,9 @@
                             echo $message;
                     }
                     ?>
-                    <input name="title", type="text" placeholder="title">
+                    <input name="title", type="text" placeholder="title" required>
                     <textarea name="description" rows=5 placeholder="description"></textarea>
-                    <input type="file" name="file">
+                    <input type="file" name="file" required>
                     <button type="submit">send</button>
                 </form>
             </section>

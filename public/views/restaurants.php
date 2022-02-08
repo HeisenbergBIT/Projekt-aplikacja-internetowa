@@ -51,38 +51,20 @@
 
             </header>
             <section class="restaurants">
-                <div id="restaurant-1">
-                    <img src="public/uploads/<?= $restaurant->getImage() ?>">
-                    <div>
-                        <h2><?= $restaurant->getTitle() ?></h2>
-                        <p><?= $restaurant->getDescription() ?></p>
-                        <div class="social-section">
-                            <i class="fas fa-heart"> 600</i>
-                            <i class="fas fa-minus-square"> 150</i>
+                <?php foreach($restaurants as $restaurant): ?>
+
+                    <div class="restaurant">
+                        <img src="public/uploads/<?= $restaurant->getImage(); ?>">
+                        <div>
+                            <h2><?= $restaurant->getTitle(); ?></h2>
+                            <p><?= $restaurant->getDescription(); ?></p>
+                            <div class="social-section">
+                                <i class="fas fa-heart"> 600</i>
+                                <i class="fas fa-minus-square"> 150</i>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <!--<div id="restaurant-2">
-                    <img src="public/img/uploads/test.jpg">
-                    <div>
-                        <h2>Title</h2>
-                        <p>Description</p>
-                        <div class="social-section">
-                            <i class="fas fa-heart"> 600</i>
-                            <i class="fas fa-minus-square"> 150</i>
-                        </div>
-                    </div>
-                </div><div id="restaurant-3">
-                    <img src="public/img/uploads/test.jpg">
-                    <div>
-                        <h2>Title</h2>
-                        <p>Description</p>
-                        <div class="social-section">
-                            <i class="fas fa-heart"> 600</i>
-                            <i class="fas fa-minus-square"> 150</i>
-                        </div>
-                    </div>
-                </div>-->
+                <?php endforeach; ?>
             </section>
         </main>
     </div>
