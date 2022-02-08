@@ -4,6 +4,7 @@
     <link rel="stylesheet" type="text/css"href="public/css/restaurants.css">
 
     <script src="https://kit.fontawesome.com/a257307827.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./public/js/search.js" defer></script>
     <title>RESTAURANTS</title>
 </head>
 
@@ -37,12 +38,7 @@
         <main>
             <header>
                 <div class="search-bar">
-                    <form>
-                        <input placeholder="search restaurant">
-                    </form>
-                    <div>
-                        
-                    </div>
+                    <input placeholder="search restaurant">
                 </div>
                 <div class="add-restaurant">
                     <i class="fas fa-plus"></i>
@@ -52,7 +48,6 @@
             </header>
             <section class="restaurants">
                 <?php foreach($restaurants as $restaurant): ?>
-
                     <div class="restaurant">
                         <img src="public/uploads/<?= $restaurant->getImage(); ?>">
                         <div>
@@ -69,3 +64,17 @@
         </main>
     </div>
 </body>
+
+<template id="restaurant-template">
+    <div class="">
+        <img src="">
+        <div>
+            <h2>title</h2>
+            <p>description</p>
+            <div class="social-section">
+                <i class="fas fa-heart"> 0</i>
+                <i class="fas fa-minus-square"> 0</i>
+            </div>
+        </div>
+    </div>
+</template>

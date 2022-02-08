@@ -30,7 +30,7 @@ body{
     max-width: 50%;
 }
 
-form.login{
+form.login, form.register{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,6 +42,10 @@ form.login{
     box-shadow: inset 0px 6px 6px #00000029;
     border: 1px solid #707070;
     border-radius: 40px;
+}
+
+form.register {
+    height: fit-content;
 }
 
 button{
@@ -172,7 +176,7 @@ header {
     width: 70%;
 }
 
-.search-bar>form>input {
+.search-bar>input {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 90px;
@@ -181,4 +185,11 @@ header {
     color: gray;
     margin: 0;
     box-sizing: border-box;
+}
+
+.no-valid {
+    border: 3px solid red;
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em red;
+    outline: none;
 }
