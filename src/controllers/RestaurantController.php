@@ -2,6 +2,7 @@
 
 require_once 'AppController.php';
 require_once __DIR__.'/../models/Restaurant.php';
+require_once __DIR__.'/../repository/RestaurantRepository.php';
 
 
 class RestaurantController extends AppController{
@@ -11,6 +12,21 @@ class RestaurantController extends AppController{
     const UPLOAD_DIRECTORY = '/../public/uploads/';
 
     private $messages = [];
+    private $restaurantRepository;
+
+    public function __construct()
+    {
+        parent::__construct();
+        $this->restaurantRepository = new RestaurantRepository();
+    }
+
+    public function restaurants()
+    {
+        $restaurants = $this->restaurantRepository->getRestaurants();
+//        echo var_dump($restaurants);
+        $this->render('restaurants', ['restaurants' => $restaurants]);
+    }
+
 
     public function addRestaurant(){
 
@@ -21,9 +37,14 @@ class RestaurantController extends AppController{
             );
 
             $restaurant = new Restaurant($_POST['title'], $_POST['description'], $_FILES['file']['name']);
+            $this->restaurantRepository->addRestaurant($restaurant);
 
-            return $this->render('restaurants', ['restaurant' => $restaurant]);
+            return $this->render('restaurants', [
+                'messages' => $this->message,
+                'restaurants' => $this->restaurantRepository->getRestaurants()
+            ]);
 
+            /*'restaurant' => $restaurant*/
         }
 
         return $this->render('add-restaurant', ['messages' => $this->messages]);
