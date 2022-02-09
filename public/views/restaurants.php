@@ -16,20 +16,8 @@
             <ul>
                 <li>
                     <i class="fas fa-utensils"></i>
-                    <a href="#" class="button">restaurants</a>
+                    <a href="/restaurants" class="button">restaurants</a>
                 </li>
-                <!--<li>
-                    <i class="fas fa-user-friends"></i>
-                    <a href="#" class="button">people</a>
-                </li>-->
-                <!--<li>
-                    <i class="fas fa-comments"></i>
-                    <a href="#" class="button">messages</a>
-                </li>-->
-                <!--<li>
-                    <i class="fas fa-bell"></i>
-                    <a href="#" class="button">notification</a>
-                </li>-->
                 <li>
                     <i class="fas fa-cog"></i>
                     <a href="/logout" class="button">log out</a>

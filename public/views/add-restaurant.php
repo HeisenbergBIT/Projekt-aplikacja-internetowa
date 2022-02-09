@@ -30,7 +30,7 @@
                 </li>-->
                 <li>
                     <i class="fas fa-cog"></i>
-                    <a href="#" class="button">log out</a>
+                    <a href="/logout" class="button">log out</a>
                 </li>
             </ul>
         </nav>

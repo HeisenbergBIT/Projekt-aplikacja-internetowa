@@ -83,7 +83,6 @@ class RestaurantController extends AppController{
     }
 
     public function like(int $id) {
-
         $this->restaurantRepository->like($id);
         http_response_code(200);
     }

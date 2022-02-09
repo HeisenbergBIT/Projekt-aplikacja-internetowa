@@ -32,19 +32,22 @@ section {
     border: 1px solid gray;
     border-radius: 1em 1em 0 0;
     height: 400px;
-
+    background: #D73920 0% 0% no-repeat padding-box;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 section.restaurant-form{
+
     display: flex;
     flex-direction: column;
     justify-content: center;
+
 }
 
 .restaurant-form > form{
     display: flex;
     flex-direction: column;
+
 }
