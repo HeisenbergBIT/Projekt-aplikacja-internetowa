@@ -18,21 +18,21 @@
                     <i class="fas fa-utensils"></i>
                     <a href="#" class="button">restaurants</a>
                 </li>
-                <li>
+                <!--<li>
                     <i class="fas fa-user-friends"></i>
                     <a href="#" class="button">people</a>
-                </li>
-                <li>
+                </li>-->
+                <!--<li>
                     <i class="fas fa-comments"></i>
                     <a href="#" class="button">messages</a>
-                </li>
-                <li>
+                </li>-->
+                <!--<li>
                     <i class="fas fa-bell"></i>
                     <a href="#" class="button">notification</a>
-                </li>
+                </li>-->
                 <li>
                     <i class="fas fa-cog"></i>
-                    <a href="#" class="button">settings</a>
+                    <a href="/logout" class="button">log out</a>
                 </li>
             </ul>
         </nav>
@@ -41,10 +41,13 @@
                 <div class="search-bar">
                     <input placeholder="search restaurant">
                 </div>
-                <div class="add-restaurant">
-                    <i class="fas fa-plus"></i>
-                    add restaurant
-                </div>
+                <a class="add-restaurant" href="/addRestaurant">
+<!--                    <div class="add-restaurant">-->
+                        <i class="fas fa-plus"></i>
+                        add restaurant
+
+                </a>
+
 
             </header>
             <section class="restaurants">

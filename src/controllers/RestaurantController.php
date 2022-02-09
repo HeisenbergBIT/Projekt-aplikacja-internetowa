@@ -22,13 +22,30 @@ class RestaurantController extends AppController{
 
     public function restaurants()
     {
-        $restaurants = $this->restaurantRepository->getRestaurants();
+         session_start();
+         if(!isset($_SESSION['login'])){
+             $url = "http://$_SERVER[HTTP_HOST]";
+             header("Location: {$url}/login");
+
+         }else{
+             $restaurants = $this->restaurantRepository->getRestaurants();
+             /*echo var_dump($restaurants);*/
+             $this->render('restaurants', ['restaurants' => $restaurants]);
+         }
+
+        /*$restaurants = $this->restaurantRepository->getRestaurants();
         /*echo var_dump($restaurants);*/
-        $this->render('restaurants', ['restaurants' => $restaurants]);
+       /* $this->render('restaurants', ['restaurants' => $restaurants]);*/
     }
 
 
     public function addRestaurant(){
+
+        session_start();
+        if(!isset($_SESSION['login'])){
+            $url = "http://$_SERVER[HTTP_HOST]";
+            header("Location: {$url}/login");
+        }
 
         if ($this->isPost() && is_uploaded_file($_FILES['file']['tmp_name']) && $this->validate($_FILES['file'])){
             move_uploaded_file(
@@ -66,6 +83,7 @@ class RestaurantController extends AppController{
     }
 
     public function like(int $id) {
+
         $this->restaurantRepository->like($id);
         http_response_code(200);
     }

@@ -13,5 +13,6 @@ Routing::post('register', 'SecurityController');
 Routing::post('search', 'RestaurantController');
 Routing::get('like', 'RestaurantController');
 Routing::get('dislike', 'RestaurantController');
+Routing::get('logout', 'SecurityController');
 
 Routing::run($path);

@@ -21,8 +21,11 @@
                 <input name="password" type="password"
                        placeholder="password">
                 <button type="submit">LOGIN</button>
+                <a href="/register" >Create account</a>
+
             </form>
         </div>
+
 
     </div>
 </body>
