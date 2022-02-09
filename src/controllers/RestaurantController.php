@@ -23,7 +23,7 @@ class RestaurantController extends AppController{
     public function restaurants()
     {
         $restaurants = $this->restaurantRepository->getRestaurants();
-//        echo var_dump($restaurants);
+        /*echo var_dump($restaurants);*/
         $this->render('restaurants', ['restaurants' => $restaurants]);
     }
 
@@ -63,6 +63,16 @@ class RestaurantController extends AppController{
 
             echo json_encode($this->restaurantRepository->getRestaurantByTitle($decoded['search']));
         }
+    }
+
+    public function like(int $id) {
+        $this->restaurantRepository->like($id);
+        http_response_code(200);
+    }
+
+    public function dislike(int $id) {
+        $this->restaurantRepository->dislike($id);
+        http_response_code(200);
     }
 
     private function validate(array $file): bool

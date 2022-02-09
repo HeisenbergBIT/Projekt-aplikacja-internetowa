@@ -11,5 +11,7 @@ Routing::post('login', 'SecurityController');
 Routing::post('addRestaurant', 'RestaurantController');
 Routing::post('register', 'SecurityController');
 Routing::post('search', 'RestaurantController');
+Routing::get('like', 'RestaurantController');
+Routing::get('dislike', 'RestaurantController');
 
 Routing::run($path);

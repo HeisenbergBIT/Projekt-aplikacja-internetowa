@@ -5,6 +5,7 @@
 
     <script src="https://kit.fontawesome.com/a257307827.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="./public/js/search.js" defer></script>
+    <script type="text/javascript" src="./public/js/statistics.js" defer></script>
     <title>RESTAURANTS</title>
 </head>
 
@@ -48,14 +49,14 @@
             </header>
             <section class="restaurants">
                 <?php foreach($restaurants as $restaurant): ?>
-                    <div class="restaurant">
+                    <div id="<?= $restaurant->getId(); ?>">
                         <img src="public/uploads/<?= $restaurant->getImage(); ?>">
                         <div>
                             <h2><?= $restaurant->getTitle(); ?></h2>
                             <p><?= $restaurant->getDescription(); ?></p>
                             <div class="social-section">
-                                <i class="fas fa-heart"> 600</i>
-                                <i class="fas fa-minus-square"> 150</i>
+                                <i class="fas fa-heart"><?= $restaurant->getLike(); ?></i>
+                                <i class="fas fa-minus-square"><?= $restaurant->getDislike(); ?></i>
                             </div>
                         </div>
                     </div>
@@ -66,7 +67,7 @@
 </body>
 
 <template id="restaurant-template">
-    <div class="">
+    <div id="">
         <img src="">
         <div>
             <h2>title</h2>
