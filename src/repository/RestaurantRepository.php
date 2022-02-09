@@ -60,7 +60,10 @@ class RestaurantRepository extends Repository
             $result[] = new Restaurant(
                 $restaurant['title'],
                 $restaurant['description'],
-                $restaurant['image']
+                $restaurant['image'],
+                $restaurant['like'],
+                $restaurant['dislike'],
+                $restaurant['id_restaurant']
             );
         }
 
@@ -78,5 +81,23 @@ class RestaurantRepository extends Repository
         $stmt->execute();
 
         return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+
+    public function like(int $id) {
+        $stmt = $this->database->connect()->prepare('
+            UPDATE restaurants SET "like" = "like" + 1 WHERE id_restaurant = :id
+         ');
+
+        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+        $stmt->execute();
+    }
+
+    public function dislike(int $id) {
+        $stmt = $this->database->connect()->prepare('
+            UPDATE restaurants SET dislike = dislike + 1 WHERE id_restaurant = :id
+         ');
+
+        $stmt->bindParam(':id', $id, PDO::PARAM_INT);
+        $stmt->execute();
     }
 }
