@@ -1,5 +1,7 @@
 # Projekt-aplikacja-internetowa
 
+
+
 # Link do repozytorium:
 https://github.com/HeisenbergBIT/Projekt-aplikacja-internetowa.git
 
@@ -14,13 +16,14 @@ Aplikacja internetowa **CULING** jest stworzona dla osób, które chcą poznać 
 Projekt składa się z ekranów:
 
 <h3>1.Ekran logowania</h3>
-![](/C:/Users/mikol/OneDrive/Pulpit/zdjecia/logowanie.png)
+![](C:\Users\mikol\OneDrive\Pulpit\zdjecia\logowanie.png)
 <h3>2.Ekran rejestracji nowego użytkownika</h3>
-![](/C:/Users/mikol/OneDrive/Pulpit/zdjecia/rejestracja.png)
-<h3>3.Ekran strona główna wraz z wyszukaniem</h3>
-![](/C:/Users/mikol/OneDrive/Pulpit/zdjecia/strona_glowna.png)
+![](C:\Users\mikol\OneDrive\Pulpit\zdjecia\rejestracja.png)
+<h3>3.Ekran strona główna wraz z wyszukiwaniem</h3>
+![](C:\Users\mikol\OneDrive\Pulpit\zdjecia\strona_glowna.png)
 <h3>4.Ekran dodania restauracji</h3>
-![](/C:/Users/mikol/OneDrive/Pulpit/zdjecia/dodanie_restauracji.png)
+![](C:\Users\mikol\OneDrive\Pulpit\zdjecia\dodanie_restauracji.png)
 
 # Diagram ERD bazy danych:
-![](/C:/Users/mikol/OneDrive/Pulpit/zdjecia/Diagram_ERD.png)
+
+![](C:\Users\mikol\OneDrive\Pulpit\zdjecia\Diagram_ERD.png)
