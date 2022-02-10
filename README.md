@@ -25,5 +25,4 @@ Projekt składa się z ekranów:
 ![](C:/Users/mikol/OneDrive/Pulpit/zdjecia/dodanie_restauracji.png)
 
 # Diagram ERD bazy danych:
-
 ![](C:/Users/mikol/OneDrive/Pulpit/zdjecia/Diagram_ERD.png)
