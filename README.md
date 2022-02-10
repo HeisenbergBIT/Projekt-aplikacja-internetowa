@@ -16,13 +16,12 @@ Aplikacja internetowa **CULING** jest stworzona dla osób, które chcą poznać 
 Projekt składa się z ekranów:
 
 <h3>1.Ekran logowania</h3>
-![](./public/img/uploads/logowanie.png)
+![logowanie](https://user-images.githubusercontent.com/73535344/153352540-a31c13b9-2519-44ee-b30c-9c037ebdb1bf.png)
 <h3>2.Ekran rejestracji nowego użytkownika</h3>
 ![rejestracja](https://user-images.githubusercontent.com/73535344/153319659-9e312716-a719-4604-9727-dbcc246950c7.png)
 <h3>3.Ekran strona główna wraz z wyszukiwaniem</h3>
-![](C:/Users/mikol/OneDrive/Pulpit/zdjecia/strona_glowna.png)
+![strona_glowna](https://user-images.githubusercontent.com/73535344/153352480-e8c97b85-0b67-4a8e-a9ad-36f418f1d388.png)
 <h3>4.Ekran dodania restauracji</h3>
-![](C:/Users/mikol/OneDrive/Pulpit/zdjecia/dodanie_restauracji.png)
-
-# Diagram ERD bazy danych:
-![](C:/Users/mikol/OneDrive/Pulpit/zdjecia/Diagram_ERD.png)
+![dodanie_restauracji](https://user-images.githubusercontent.com/73535344/153352443-89e66c8e-61bf-4d14-a720-aeca7456d1f2.png)
+<h3>Diagram ERD bazy danych:</h3>
+![Diagram_ERD](https://user-images.githubusercontent.com/73535344/153352349-d7084adc-1972-4cb6-8883-7cf0db6faf2c.png)
