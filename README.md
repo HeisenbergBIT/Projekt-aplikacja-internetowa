@@ -16,7 +16,7 @@ Aplikacja internetowa **CULING** jest stworzona dla osób, które chcą poznać 
 Projekt składa się z ekranów:
 
 <h3>1.Ekran logowania</h3>
-![IMAGE](C:/Users/mikol/OneDrive/Pulpit/zdjecia/logowanie.png)
+![IMAGE](./public/img/uploads/logowanie.png)
 <h3>2.Ekran rejestracji nowego użytkownika</h3>
 ![](C:/Users/mikol/OneDrive/Pulpit/zdjecia/rejestracja.png)
 <h3>3.Ekran strona główna wraz z wyszukiwaniem</h3>
