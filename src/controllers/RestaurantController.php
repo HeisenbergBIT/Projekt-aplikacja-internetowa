@@ -32,10 +32,6 @@ class RestaurantController extends AppController{
              /*echo var_dump($restaurants);*/
              $this->render('restaurants', ['restaurants' => $restaurants]);
          }
-
-        /*$restaurants = $this->restaurantRepository->getRestaurants();
-        /*echo var_dump($restaurants);*/
-       /* $this->render('restaurants', ['restaurants' => $restaurants]);*/
     }
 
 

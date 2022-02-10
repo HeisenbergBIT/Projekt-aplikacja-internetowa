@@ -33,8 +33,6 @@ class RestaurantRepository extends Repository
             INSERT INTO restaurants (id_user, title, description, created_at, image)
             VALUES (?, ?, ?, ?, ?)
         ');
-
-        //TODO you should get this value from logged user session
         $id_user = 1;
 
         $stmt->execute([
