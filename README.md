@@ -25,20 +25,22 @@ Korzystając z narzędzia **Docker** oraz polecenia docker-compose up (wywoływa
 
 Aby móc z niej korzystać, w oknie przeglądarki należy wpisać: http://localhost:8080.
 
-## Screenshoty
+## Screenshots
 
-![logo](https://user-images.githubusercontent.com/73535344/154330011-56d7c230-efd2-4dec-8f26-a7efa3ff1981.png)
+### 1.Ekran logowania
 
-![strona_glowna](https://user-images.githubusercontent.com/73535344/153352480-e8c97b85-0b67-4a8e-a9ad-36f418f1d388.png)
-
-
-<h3>1.Ekran logowania</h3>
 ![logowanie](https://github.com/HeisenbergBIT/Projekt-aplikacja-internetowa/blob/main/screenshots/dodanie_restauracji.png)
-<h3>2.Ekran rejestracji nowego użytkownika</h3>
+
+### 2.Ekran rejestracji nowego użytkownika
+
 ![rejestracja](https://user-images.githubusercontent.com/73535344/153319659-9e312716-a719-4604-9727-dbcc246950c7.png)
-<h3>3.Ekran strona główna wraz z wyszukiwaniem</h3>
+
+### 3.Ekran strona główna wraz z wyszukiwaniem
+
 ![strona_glowna](https://user-images.githubusercontent.com/73535344/153352480-e8c97b85-0b67-4a8e-a9ad-36f418f1d388.png)
-<h3>4.Ekran dodania restauracji</h3>
+
+### 4.Ekran dodania restauracji
+
 ![dodanie_restauracji](https://user-images.githubusercontent.com/73535344/153352443-89e66c8e-61bf-4d14-a720-aeca7456d1f2.png)
 
 ## Diagram ERD bazy danych
