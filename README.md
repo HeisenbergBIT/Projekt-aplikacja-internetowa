@@ -1,4 +1,5 @@
 # CULING
+![logo](screenshots/logo.png)
 
 # Spis treści
 * [Opis projektu](#opis-projektu)
