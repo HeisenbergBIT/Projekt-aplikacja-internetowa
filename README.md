@@ -29,13 +29,13 @@ Aby móc z niej korzystać, w oknie przeglądarki należy wpisać: http://localh
 
 ### 1.Ekran logowania
 
-![logowanie](https://github.com/HeisenbergBIT/Projekt-aplikacja-internetowa/blob/main/screenshots/dodanie_restauracji.png)
+![logowanie](https://user-images.githubusercontent.com/73535344/154368907-4d495de6-a688-43ab-b847-57157448ff2f.png)
 
 ### 2.Ekran rejestracji nowego użytkownika
 
 ![rejestracja](https://user-images.githubusercontent.com/73535344/153319659-9e312716-a719-4604-9727-dbcc246950c7.png)
 
-### 3.Ekran strona główna wraz z wyszukiwaniem
+### 3.Ekran strony głównej wraz z wyszukiwarką
 
 ![strona_glowna](https://user-images.githubusercontent.com/73535344/153352480-e8c97b85-0b67-4a8e-a9ad-36f418f1d388.png)
 
@@ -44,4 +44,4 @@ Aby móc z niej korzystać, w oknie przeglądarki należy wpisać: http://localh
 ![dodanie_restauracji](https://user-images.githubusercontent.com/73535344/153352443-89e66c8e-61bf-4d14-a720-aeca7456d1f2.png)
 
 ## Diagram ERD bazy danych
-![Diagram_ERD](https://user-images.githubusercontent.com/73535344/153352349-d7084adc-1972-4cb6-8883-7cf0db6faf2c.png)
+![diagram_erd](https://user-images.githubusercontent.com/73535344/154368749-cdbbe91f-ea75-479f-88fc-3ce840c38fc9.png)
