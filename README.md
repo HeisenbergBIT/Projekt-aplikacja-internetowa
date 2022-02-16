@@ -27,7 +27,7 @@ Aby móc z niej korzystać, w oknie przeglądarki należy wpisać: http://localh
 
 ## Screenshoty
 <h3>1.Ekran logowania</h3>
-![logowanie](https://user-images.githubusercontent.com/73535344/154332744-0bfd8c5d-81bc-4e30-bb69-a234f1a10a53.png)
+![logowanie](https://user-images.githubusercontent.com/73535344/154333373-749dcb54-e805-4bd1-bbde-d79306c5f0c0.png)
 <h3>2.Ekran rejestracji nowego użytkownika</h3>
 ![rejestracja](https://user-images.githubusercontent.com/73535344/153319659-9e312716-a719-4604-9727-dbcc246950c7.png)
 <h3>3.Ekran strona główna wraz z wyszukiwaniem</h3>
