@@ -1,5 +1,5 @@
 # CULING
-![logo](screenshots/logo.png)
+![logo](https://user-images.githubusercontent.com/73535344/154330011-56d7c230-efd2-4dec-8f26-a7efa3ff1981.png)
 
 # Spis treści
 * [Opis projektu](#opis-projektu)
