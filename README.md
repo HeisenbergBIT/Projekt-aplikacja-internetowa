@@ -20,10 +20,8 @@ Aplikacja internetowa **CULING** jest stworzona dla osób, które chcą poznać 
 * Docker
 
 ## Uruchomienie aplikacji:
-W celu uruchomienia projektu należy sklonować repozytorium lub pobrać kod źródłowy.
-Korzystając z narzędzia **Docker** oraz polecenia docker-compose up (wywoływanego w głównym katalogu projektu) - aplikacja uruchomi się na lokalnym serwerze.
 
-Aby móc z niej korzystać, w oknie przeglądarki należy wpisać: http://localhost:8080.
+Link do aplikacji https://shielded-bayou-37325.herokuapp.com/.
 
 ## Screenshots
 
